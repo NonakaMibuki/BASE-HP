@@ -347,14 +347,14 @@ ABOUT US
 =============================*/
 
 .about__container {
-    margin: 100px 0px;
+    max-width: 73%;
+    margin: 100px auto 100px;
 }
 
 .main__title--left {
     font-size: 3.5rem;
     font-style: italic;
-    max-width: 1100px;
-    margin: 0 auto 50px;
+    margin: 80px auto 50px;
     font-weight: 500;
     font-family: "Noto Serif", serif;
 }
@@ -372,7 +372,7 @@ ABOUT US
 .about__box {
     display: flex;
     justify-content: space-between;
-    margin: 120px 180px 60px;
+    margin: 120px auto 60px;
 }
 
 div.about__box--text p {
@@ -458,7 +458,8 @@ SERVICE
 =============================*/
 
 .service__container {
-    margin: 150px 180px;
+    max-width: 73%;
+    margin: 150px auto;
 }
 
 .service__container h2.main__title--right {
@@ -500,7 +501,7 @@ p.service__sub-title {
 .service__item {
     border: 1px solid #d9d9d9;
     list-style: none;
-    width: calc(90%/3);
+    width: calc(97%/3);
     text-align: center;
 }
 
@@ -699,6 +700,7 @@ CONTACT
 
 .contact__title {
     color: #fff;
+    max-width: 73%;
 }
 
 .contact__title::after {
@@ -716,10 +718,11 @@ CONTACT
     justify-content: space-between;
     align-items: center;
     margin: 80px 180px;
+    max-width: 72%;
 }
 
 .contact__list li {
-    width: calc(99.5%/2);
+    width: calc(99%/2);
     height: 25vh;
     background-color: #fff;
     color: #333;
