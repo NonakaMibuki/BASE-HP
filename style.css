@@ -636,7 +636,7 @@ p.service__sub-title {
 }
 
 .service__step--detail {
-    width: calc(90%/3);
+    width: calc(96%/3);
     text-align: center;
     list-style: none;
     min-height: 300px;
