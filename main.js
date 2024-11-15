@@ -1,9 +1,26 @@
 const CLASSNAME = "-visible";
 const DELAY = 1500;
-const $target = $(".title");
+const $target = $(".title, .title2, .title3");
+
+$(function () {
+  //ハンバーガーメニュー
+  $(".openbtn").click(function () {
+    $(this).toggleClass("active");
+    $(".header__nav").toggleClass("active");
+    $(".hamburger__cover").toggleClass("active");
+  });
+
+  //ハンバーガーメニュー　同ページのアンカーに飛んでも表示消す
+  $(".header__nav ul li a").click(function () {
+    $(".openbtn").removeClass("active");
+    $(".header__nav").removeClass("active");
+  });
+});
 
 // 初回のアニメーション実行
 $target.addClass(CLASSNAME);
+  
+
 
 function PageTopCheck() {
     var winScrollTop = $(this).scrollTop();
@@ -43,7 +60,7 @@ function PageTopCheck() {
       var position = $(this).offset().top;
       var scroll = $(window).scrollTop();
       var windowHeight = $(window).height();
-      if (scroll > position - windowHeight + 120) {
+      if (scroll > position - windowHeight + 100) {
         $(this).addClass("active");
       }
     });

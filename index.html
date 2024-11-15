@@ -12,52 +12,89 @@
   </head>
   <body>
     <section class="fv__container">
-      <header>
-        <h1><a href="">株式会社xxxx</a></h1>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About us</a></li>
-            <li><a href="#service">Service</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <div class="wave -one"></div>
-      <div class="wave -two"></div>
-      <div class="wave -three"></div>
-      <div class="fv__text">
-        <div class="title">
-          <span>M</span>
-          <span>a</span>
-          <span>k</span>
-          <span>i</span>
-          <span>n</span>
-          <span>g</span>
-          <span>&nbsp;</span>
-          <span>l</span>
-          <span>i</span>
-          <span>f</span>
-          <span>e</span>
-          <span>&nbsp;</span>
-          <span>m</span>
-          <span>o</span>
-          <span>r</span>
-          <span>e</span>
-          <span>&nbsp;</span>
-          <span>c</span>
-          <span>o</span>
-          <span>m</span>
-          <span>f</span>
-          <span>o</span>
-          <span>r</span>
-          <span>t</span>
-          <span>a</span>
-          <span>b</span>
-          <span>l</span>
-          <span>e</span>
+      <div class="fv__box">
+        <header id="header">
+          <h1><a href="">株式会社xxxx</a></h1>
+          <div class="openbtn"><span></span><span>Menu</span><span></span></div>
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#service">Service</a></li>
+              <li class="hamburger__contact"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="hamburger__cover"></div>
+        </header>
+        <div class="wave -one"></div>
+        <div class="wave -two"></div>
+        <div class="wave -three"></div>
+        <div class="fv__text">
+          <div class="title pc-only">
+            <span>M</span>
+            <span>a</span>
+            <span>k</span>
+            <span>i</span>
+            <span>n</span>
+            <span>g</span>
+            <span>&nbsp;</span>
+            <span>l</span>
+            <span>i</span>
+            <span>f</span>
+            <span>e</span>
+            <span>&nbsp;</span>
+            <span>m</span>
+            <span>o</span>
+            <span>r</span>
+            <span>e</span>
+            <span>&nbsp;</span>
+            <span>c</span>
+            <span>o</span>
+            <span>m</span>
+            <span>f</span>
+            <span>o</span>
+            <span>r</span>
+            <span>t</span>
+            <span>a</span>
+            <span>b</span>
+            <span>l</span>
+            <span>e</span>
+          </div>
+          <div class="title__sp--container sp-only">
+            <div class="title2 sp-only">
+              <span>M</span>
+              <span>a</span>
+              <span>k</span>
+              <span>i</span>
+              <span>n</span>
+              <span>g</span>
+              <span>&nbsp;</span>
+              <span>l</span>
+              <span>i</span>
+              <span>f</span>
+              <span>e</span>
+            </div>
+            <div class="title3 sp-only">
+              <span>m</span>
+              <span>o</span>
+              <span>r</span>
+              <span>e</span>
+              <span>&nbsp;</span>
+              <span>c</span>
+              <span>o</span>
+              <span>m</span>
+              <span>f</span>
+              <span>o</span>
+              <span>r</span>
+              <span>t</span>
+              <span>a</span>
+              <span>b</span>
+              <span>l</span>
+              <span>e</span>
+            </div>
+          </div>
+          <div class="fv__sub--title">あなたの暮らしをより快適に</div>
         </div>
-        <div class="fv__sub--title">あなたの暮らしをより快適に</div>
       </div>
     </section>
     <section class="about__container area2" id="about">
@@ -70,7 +107,7 @@
             暮らしに欠かせないライフラインをお届けする企業です。<br />
           </p>
           <p id="fadeIn-text">
-            <span class="about__text--marker js-markerScrollAnimation">私たちが大切にしているのは、安心で快適な生活基盤を築くこと。</span>
+            <span class="about__text--marker js-markerScrollAnimation">私たちが大切にしているのは、<br class="sp-only" />安心で快適な生活基盤を築くこと。</span>
           </p>
           <p id="fadeIn-text">
             お客様それぞれのライフスタイルやご要望に寄り添い<br />
@@ -116,15 +153,18 @@
             <li class="service__step--detail" id="fadeIn-text3">
               <p class="detail__title">1. 新居が確定次第、ご案内いたします</p>
               <img src="./img/house-img.png" alt="" />
-              <p class="detail__text">ご入居先が決まりましたら<br>
-                必要なライフラインをご案内いたします</p>
+              <p class="detail__text">
+                ご入居先が決まりましたら<br />
+                必要なライフラインをご案内いたします
+              </p>
             </li>
             <div class="triangle1"></div>
             <li class="service__step--detail" id="fadeIn-text4">
               <p class="detail__title">2. ご利用可能なサービスをご提案いたします</p>
               <img src="./img/serch-img.png" alt="" />
-              <p class="detail__text">お住まいの地域やお客様のライフスタイルに<br>
-                合わせたサービスを<br>
+              <p class="detail__text">
+                お住まいの地域やライフスタイルに<br />
+                合わせたサービスを<br />
                 お客様に代わって手続きいたします
               </p>
             </li>
@@ -132,8 +172,10 @@
             <li class="service__step--detail" id="fadeIn-text5">
               <p class="detail__title">3. ご希望のサービス・会社で快適な生活を</p>
               <img src="./img/lifeline-img.png" alt="" />
-              <p class="detail__text">ライフラインを一度にお手続き可能なため<br>
-                スムーズに新生活をスタートできます</p>
+              <p class="detail__text">
+                ライフラインを一度にお手続き可能なため<br />
+                スムーズに新生活をスタートできます
+              </p>
             </li>
           </ul>
         </div>
@@ -142,20 +184,13 @@
     <section class="contact__container" id="contact">
       <h2 class="main__title--left contact__title">CONTACT</h2>
       <p class="contact__sub-title">ご相談やお問い合わせはお気軽にご連絡ください</p>
-      <ul class="contact__list">
-        <li>
-          <p>フォームでのお問い合わせ</p>
-          <div><a href="">お問い合わせフォーム</a></div>
-        </li>
-        <li>
-          <p>お電話でのお問い合わせ</p>
-          <p class="contact__phone">000-0000-0000</p>
-        </li>
-      </ul>
+      <div class="contact__form">
+        <div class="contact__form--btn"><a href="">お問い合わせフォーム</a></div>
+      </div>
     </section>
     <footer>
-      <p class="js-scroll scroll-top scrollview"><a href="#about">Scroll</a></p>
-      <p class="js-pagetop scroll-top"><a href="#">Page Top</a></p>
+      <p class="js-scroll scroll-top scrollview pc-only"><a href="#about">Scroll</a></p>
+      <p class="js-pagetop scroll-top pc-only"><a href="#">Page Top</a></p>
       <div class="footer__container">
         <div>
           <h3><a href="">株式会社xxxx</a></h3>
