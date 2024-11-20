@@ -215,22 +215,22 @@ header nav ul li a {
 .wave {
     opacity: .45;
     position: absolute;
-    top: -130%;
-    left: -15%;
+    top: -117%;
+    left: -10%;
     background: linear-gradient(to bottom, #ffdda1, #ff8c42);
-    width: 1800px;
-    height: 1600px;
+    width: 125vw;
+    height: 195vh;
     transform-origin: 50% 48%;
     border-radius: 43%;
-    animation: drift 7000ms infinite linear;
+    animation: drift 7500ms infinite linear;
 }
 
 .wave.-three {
-    animation: drift 10000ms infinite linear;
+    animation: drift 11000ms infinite linear;
 }
 
 .wave.-two {
-    animation: drift 8000ms infinite linear;
+    animation: drift 8500ms infinite linear;
     opacity: .3;
     background: linear-gradient(to bottom, #ffe5b3, #ffb884);
 }
