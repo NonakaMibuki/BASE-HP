@@ -25,11 +25,13 @@ time, mark, audio, video {
 @font-face {
     font-family: "myfont";
     src: url("./fonts/ipaexm.ttf") format("truetype");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "decofont";
     src: url("./fonts/Antro_Vectra.otf") format("opentype");
+    font-display: swap;
 }
 
 body {
@@ -813,6 +815,7 @@ div.about__box--text p {
     .about__box--img img {
         margin-top: 15px;
         width: 15rem;
+        height: auto;
     }
 
     .about__box--img img.img-small {
@@ -1723,7 +1726,8 @@ header h1.sub-page a {
 }
 
 .alliance__top--text img {
-    width: 7%;
+    width: 25%;
+    height: auto;
     opacity: .85;
 }
 
